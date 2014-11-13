@@ -21,7 +21,6 @@ import android.widget.TableRow;
 import android.widget.TableRow.LayoutParams;
 import android.widget.TextView;
 
-
 public class GameHandler {
 	
 	private Activity gameactivity;

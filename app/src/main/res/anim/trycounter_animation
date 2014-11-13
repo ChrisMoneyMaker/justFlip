@@ -3,14 +3,24 @@
     android:fillAfter="true"
     android:repeatCount="0" >
 
-    <translate
-        android:duration="@android:integer/config_shortAnimTime"
-        android:fromYDelta="-100%"
-        android:toYDelta="0%" />
+    <!-- zoom in -->
+    <scale
+        android:duration="400"
+        android:fromXScale="1.0"
+        android:toXScale="2.0"
+        android:fromYScale="1.0"
+        android:toYScale="2.0"
+        android:pivotX="0"
+        android:pivotY="0"/>
 
-    <alpha
-        android:duration="@android:integer/config_mediumAnimTime"
-        android:fromAlpha="0.0"
-        android:toAlpha="1.0" />
+    <!-- zoom out -->
+    <scale
+        android:duration="500"
+        android:fromXScale="1.0"
+        android:toXScale="0.5"
+        android:fromYScale="1.0"
+        android:toYScale="0.5"
+        android:pivotX="0"
+        android:pivotY="0"/>
 
 </set>

@@ -6,7 +6,7 @@ import android.widget.Button;
 
 public class FlipButton extends Button {
 	
-	public static final int UP_COLOR = Color.parseColor("#16a085");   // midnight blue #2c3e50
+	public static final int UP_COLOR = Color.parseColor("#2c3e50");   // midnight blue #2c3e50
 	public static final int DOWN_COLOR = Color.parseColor("#ecf0f1"); // white
 	
 	public int upside; // 1 => up , 0 => down
